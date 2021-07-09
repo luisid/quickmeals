@@ -1,0 +1,19 @@
+{
+  "name": "quickmeals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luisid/quickmeals.git",
+  "author": "Luis De Leon <l.deleon@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
